@@ -5,7 +5,7 @@ Console.Clear();
 Random rnd = new Random();
 int lines = rnd.Next(3, 6);
 int columns = rnd.Next(3, 6);
-double[,] arr = new double[lines, columns];
+int[,] arr = new int[lines, columns];
 double[] avgs = new double[columns];
 
 for (int i = 0; i < lines; i++)
